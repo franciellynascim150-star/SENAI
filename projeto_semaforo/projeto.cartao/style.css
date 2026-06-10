@@ -1,0 +1,21 @@
+body {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-family: georgia, serif;
+}
+.cartao {
+    height: 230px;
+    width: 400px;
+    border-radius: 30px;
+    margin: 50px;
+    padding: 50px;
+    background-color: pink;
+}
+.colorido2 {
+    color: red;
+}
+h3 {
+    padding: 30px;
+}

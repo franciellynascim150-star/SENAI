@@ -1,0 +1,27 @@
+body{
+    background-color: #f5e8df;
+}
+
+h1{
+    color: purple;
+    margin: 20px;
+}
+
+.caixa1{
+    background-color: #d61f26;
+    color: white;
+    padding: 30px;
+}
+
+.caixa2{
+    background-color: #7b1fa2;
+    color: white;
+    margin: 30px;
+}
+
+.caixa3{
+    background-color: #f25c05;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+}
