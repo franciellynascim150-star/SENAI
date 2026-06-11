@@ -1,0 +1,32 @@
+.container {
+    position: relative;
+
+}
+.icon {
+    position: absolute;
+}
+.icon01 {
+    left: 65px;
+    top: 40px;
+}
+.icon02 {
+    left: 214px;
+    top: 47px;
+}
+.icon03 {
+    left: 267px;
+    bottom: 100px;
+}
+.icon04 {
+    left: 385px;
+    bottom: 140px;
+
+}
+.icon05{
+    left: 200px;
+    top: 120px;
+}
+.icon06 {
+    right: 100px;
+    top: 200px;  
+}
