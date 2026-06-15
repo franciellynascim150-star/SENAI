@@ -1,17 +1,47 @@
-body {
-    display: flex;
-    justify-content: center;
-    margin-top: 100px
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.colorido {
-    margin-top: 20px;
-
+a {
+    text-decoration: none;
 }
-.coluna {
+.buttons {
+    margin: 10px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
-    gap: 12x
+    gap: 20px;
+    max-width: 168px;
 }
-button {
-
+.btn-01 {
+    padding: 10px 25px;
+    border:2px solid black;
+    color:black;
+    text-align: center;
+}
+.btn-01 :hover {
+    color: white;
+    background-color: black;
+}
+.btn-02 {
+    padding: 10px 25px;
+    border-radius: 30px;
+    color: black;
+    background-color: aqua;
+}
+.btn-02 :hover {
+    background-color: aquamarine;
+    color: black;
+}
+.btn-03 {
+    padding: 10px 15px;
+    text-align: center;
+    color: black;
+    background-color: #41FF6A;
+    border-radius: 15px;
+    font-weight: 700;                                              
+}
+.btn-03 :hover {
+    
 }
