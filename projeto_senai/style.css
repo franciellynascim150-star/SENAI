@@ -1,9 +1,14 @@
-
-* {
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+}
+.linha{
+    background-color: #163F92;
+    padding: 12px 120px;
+    display: flex;
+
 
 
 
@@ -11,6 +16,9 @@
 .links-linha{
     display: flex;
     gap: 20px;
+
+
+
 
 
 
@@ -74,6 +82,13 @@ p{
     gap: 40px;
     justify-content: center ;
 }
+
+.p1{
+    font-size: small;
+    justify-content: end;
+    align-items: center;
+    padding: 10px;
+}
 body{
     background-color: #EAEAEA;
 }
@@ -103,32 +118,29 @@ body{
 
 }
 .banner h2{
-    color: white;
+    color: #163F92;
     font-size: 34px;
     width: 354px;
 
 
 }
 .banner p{
-    color: white;
+    color:black;
     font-size: 16px;
     width: 304px;
     text-align: left;
     margin:initial;
 }
 .banner a{
-    background-color: white;
+    background-color:#163F92;
+    color: white;
     width: 360px;
     text-align: center;
     padding: 10px 60px;
-    color: black;
-    font-weight: 700;
-    border-radius: 30px;
-    text-decoration: none;
 }
 .footer{
 padding: 40px 120px;
-background-color: black;
+background-color: #D9D9D9;
 display: flex;
 justify-content: space-between;
 
@@ -150,18 +162,21 @@ justify-content: space-between;
 
 
 .insta{
-    background-image: url(./assets/faInstagram.png);
+    background-image: url(./assets/ico-instagram.png);
     background-size: contain;
     background-position: center;
 }
 .linkedin{
-    background-image: url(./assets/faLinkedin.png);
+    background-image: url(./assets/ico-linkedin.png);
     background-size: contain;
     background-position: center;
 }
 .facebook{
-    background-image: url(./assets/faFacebookSquare.png);
+    background-image: url(./assets/ico-facebook.png);
 }
 .youtube{
-    background-image: url(./assets/faYoutube.png);
+    background-image: url(./assets/ico-youtube.png);
+}
+.titulo {
+    color: #163F92;
 }
