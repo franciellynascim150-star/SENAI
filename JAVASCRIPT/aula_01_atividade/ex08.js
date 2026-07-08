@@ -1,6 +1,6 @@
-let pontuação =  150
+let pontuacao =  150
 pontucao = 150
 const nomeJogo = "Xadrez"
 
 console.log(pontuação); // 150                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
-//a variavel let pontuação pode ser alterada normalmente,então ela deixa de ser 100 e se torna 150.
+//a variavel let pontuacao pode ser alterada normalmente,então ela deixa de ser 100 e se torna 150.
