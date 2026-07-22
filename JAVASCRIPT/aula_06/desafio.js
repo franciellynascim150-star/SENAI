@@ -1,0 +1,24 @@
+let numeros = [12,5,8,21,3,14,7]
+let maior = 0
+let menor = 0
+let total = 0
+
+for (let i=0; i<= numeros.leght; i++) {
+    total=total + numeros [i]
+
+    if (maior < numeros [i]){
+        maior = numeros [i]
+
+    }
+    
+    if (menor>numeros [i]) {
+        menor = numeros [i]
+    }
+
+    if (menor > numeros [1]){
+        menor = numeros [i]
+    }
+}
+console.log(`Maior: ${maior} - Menor: ${menor} - Total: ${total}`)
+
+
