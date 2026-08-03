@@ -1,0 +1,4 @@
+const calcArea = (b,h)=>{
+    
+
+}
